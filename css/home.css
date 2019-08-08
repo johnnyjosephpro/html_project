@@ -95,7 +95,7 @@ div.header{
     }
 
 .team-title h3 {
-    font-size: 25px;
+    font-size: 28px;
     line-height: 26px;
     color: #21af8d;
     text-transform: uppercase;
@@ -105,7 +105,7 @@ div.header{
 .team-title p {
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
-    color: #7c8b9e;
+    color: #ffffff;
     line-height: 26px;
     text-align: center;
     opacity: 0px;
@@ -119,7 +119,7 @@ div.header{
 
 /* Team photo1 properties */
   .perso1 div{
-    position:relative;
+    position:static;
     padding: 0px 35px;
     margin: 10px auto;
     margin-top: -3px;
@@ -153,7 +153,7 @@ div.header{
     /* =================== Team photo2 properties ==================== */
 
       .perso2 div{
-        position:relative;
+        position:static;
         padding: 0px 35px;
         margin: 10px auto;
         margin-top: -30px;
@@ -186,7 +186,7 @@ div.header{
         /* =================== Team photo3 properties ==================== */
 
           .perso3 div{
-            position:relative;
+            position:static;
             padding: 0px 35px;
             margin: 10px auto;
             margin-top: -270px;
@@ -227,23 +227,59 @@ div.header{
         }
 
         div.testcontents{
-          height: 200px;
-          width: 270px;
+          height: 270px;
+          width: 260px;
           margin: 10px;
           float: left;
-          padding-left: 10px;
-          margin-top: -50px;
+          padding-left: 15px;
+          margin-top: -60px;
         }
 
         div#testimo1{
-          background: #F76678
-
+          /* background: #38477a; */
+          text-align: justify;
         }
 
         div#testimo2{
-          background: #F77890
+          /* background: #F77890 */
+          text-align: justify;
         }
 
         div#testimo3{
-          background: #F23455
+          /* background: #F23455 */
+          text-align: justify;
         }
+
+        div.contentcats{
+        width: 60%;
+        height: auto;
+        margin: 0px auto;
+        padding: 190px 0px;
+        background: #38475a;
+        }
+
+        /* ============ Button =============== */
+
+        .button {
+        background-color: #21af8d;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+      .button2 {font-size: 12px;
+
+      }
+
+      .button2:hover:not(.active) {
+        background-color: #111;
+      }
+
+      .active {
+        background-color: #21af8d;
+      }
