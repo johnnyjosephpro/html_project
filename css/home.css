@@ -75,34 +75,154 @@ div.header{
 }
 
 
-/* Properties of DIV After MenuBar */
-div.Slider{
-width: 100%;
-height: auto;
-margin: 0 auto;
-padding-left: 300px;
-}
-
-div.Col{
-width: 60%;
-height: 40%;
-margin: 0 auto;
-padding: 200px 0px;
-background-color: #4c5d90;
-}
-
-div.testimo{
-width: 60%;
-height: 40%;
-margin: 0px auto;
-padding: 160px 0px;
-background-color: #4c5d78;
-}
+    /* Properties of Slider */
+    div.Slider{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 300px;
+    }
 
 
-/* Properties of Paragraph */
-p {
-  font-family: verdana;
-  font-size: 12px;
-  margin: 20px 220px 75px;
+/* ==================== Team Properties ========================== */
+    .team div{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    padding: 15px 0px;
+    background: #38475a;
+    display: block;
+    }
+
+.team-title h3 {
+    font-size: 25px;
+    line-height: 26px;
+    color: #21af8d;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
 }
+.team-title p {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #7c8b9e;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0px;
+    margin-top: -20px;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Team photo1 properties */
+  .perso1 div{
+    position:relative;
+    padding: 0px 35px;
+    margin: 10px auto;
+    margin-top: -3px;
+    margin-left: 30px;
+    min-height: 1px;
+    float: left;
+    width: 160px;
+}
+
+  .perso1 img{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    vertical-align: baseline;
+    display: block;
+    align-items: center;
+  }
+    .perso1 h3{
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .perso1 p{
+      text-align: center;
+      color: #ffffff;
+      font-family: verdana;
+      font-size: 12px;
+      margin-top: -10px;
+    }
+
+    /* =================== Team photo2 properties ==================== */
+
+      .perso2 div{
+        position:relative;
+        padding: 0px 35px;
+        margin: 10px auto;
+        margin-top: -30px;
+        min-height: 1px;
+        float:none;
+        width: 160px;
+    }
+
+      .perso2 img{
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+        vertical-align: baseline;
+        align-items: center;
+        display: block;
+      }
+        .perso2 h3{
+          text-align: center;
+          color: #ffffff;
+        }
+
+        .perso2 p{
+          text-align: center;
+          color: #ffffff;
+          font-family: verdana;
+          font-size: 12px;
+          margin-top: -10px;
+        }
+
+        /* =================== Team photo3 properties ==================== */
+
+          .perso3 div{
+            position:relative;
+            padding: 0px 35px;
+            margin: 10px auto;
+            margin-top: -270px;
+            margin-right: 30px;
+            min-height: 1px;
+            float: right;
+            width: 160px;
+        }
+
+          .perso3 img{
+            width: 100%;
+            height: auto;
+            margin-top: 0px;
+            vertical-align: baseline;
+            align-items: center;
+            display: block;
+          }
+            .perso3 h3{
+              text-align: center;
+              color: #ffffff;
+            }
+
+            .perso3 p{
+              text-align: center;
+              color: #ffffff;
+              font-family: verdana;
+              font-size: 12px;
+              margin-top: -10px;
+            }
+
+
+        div.testimo{
+        width: 60%;
+        height: auto;
+        margin: 0px auto;
+        padding: 160px 0px;
+        background: #ffffff;
+
+        }
