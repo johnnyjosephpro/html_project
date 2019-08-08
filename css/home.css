@@ -58,7 +58,7 @@ h1.header{
     text-decoration-color: white;
     text-transform: uppercase;
     padding: 12px;
-    margin-left: 370px;
+    margin-left: 283px;
 }
 
 /*   Header */
@@ -68,25 +68,26 @@ div.header{
   display:block
   width: auto;
   height: 50px;
-  margin: 10px auto;
+  margin: 5px auto;
   padding: 0px;
+  border: 0px;
   background-color: #21af8d;
 }
 
 
 /* Properties of DIV After MenuBar */
 div.Slider{
-width: 60%;
-height: 30%;
-margin: 0px auto;
-padding-right: 5px;
+width: 100%;
+height: auto;
+margin: 0 auto;
+padding-left: 300px;
 }
 
 div.Col{
 width: 60%;
 height: 40%;
 margin: 0 auto;
-padding: 150px 0px;
+padding: 200px 0px;
 background-color: #4c5d90;
 }
 
