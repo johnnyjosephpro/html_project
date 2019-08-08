@@ -216,7 +216,7 @@ div.header{
               font-size: 12px;
               margin-top: -10px;
             }
-
+/* ===================== Testimos ============================= */
 
         div.testimo{
         width: 60%;
@@ -224,5 +224,26 @@ div.header{
         margin: 0px auto;
         padding: 160px 0px;
         background: #ffffff;
+        }
 
+        div.testcontents{
+          height: 200px;
+          width: 270px;
+          margin: 10px;
+          float: left;
+          padding-left: 10px;
+          margin-top: -50px;
+        }
+
+        div#testimo1{
+          background: #F76678
+
+        }
+
+        div#testimo2{
+          background: #F77890
+        }
+
+        div#testimo3{
+          background: #F23455
         }
