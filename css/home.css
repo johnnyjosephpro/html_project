@@ -1,4 +1,4 @@
-/* Properties of Bdy */
+/* =========================== Properties of B0dy ============================= */
 body {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
@@ -9,46 +9,45 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-/* Properties of the MenuBar */
+/* ========================= Properties of the MenuBar ========================= */
 div.menubar{
-  position: static;
-  text-align: center;
-  background: #52647a;
-  margin-top: 120px;
-  width: 60%;
-  height: 30%;
-  margin: 0 auto;
-  padding: 5px;
+    position: static;
+    text-align: center;
+    background: #52647a;
+    margin-top: 120px;
+    width: 60%;
+    height: 30%;
+    margin: 0 auto;
+    padding: 5px;
 }
 
 ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #52647a;
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #52647a;
 }
 
 li{
-  float: left;
-  border-left: 1px solid #4c5d72;
+    float: left;
+    border-left: 1px solid #4c5d72;
 }
 
 li a{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+    background-color: #111;
 }
 
 .active {
-  background-color: #21af8d;
+    background-color: #21af8d;
 }
 
 h1.header{
@@ -61,81 +60,81 @@ h1.header{
     margin-left: 283px;
 }
 
-/*   Header */
+/*   ========================== Header ====================================   */
 div.header{
-  position:sticky;
-  top: 0;
-  display:block
-  width: auto;
-  height: 50px;
-  margin: 5px auto;
-  padding: 0px;
-  border: 0px;
-  background-color: #21af8d;
+    position:sticky;
+    top: 0;
+    display:block
+    width: auto;
+    height: 50px;
+    margin: 5px auto;
+    padding: 0px;
+    border: 0px;
+    background-color: #21af8d;
 }
 
 
-    /* Properties of Slider */
+    /* ======================  Properties of Slider ======================= */
     div.Slider{
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    padding-left: 300px;
+      width: 60%;
+      height: 40%;
+      margin: 0 auto;
     }
 
 
-/* ==================== Team Properties ========================== */
+/* ============================ Team Properties ============================= */
     .team div{
-    width: 60%;
-    height: auto;
-    margin: 0 auto;
-    padding: 15px 0px;
-    background: #38475a;
-    display: block;
+      width: 60%;
+      height: auto;
+      margin: 0 auto;
+      padding: 15px 0px;
+      background: #38475a;
+      display: block;
     }
 
 .team-title h3 {
-    font-size: 28px;
-    line-height: 26px;
-    color: #21af8d;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 10px;
-}
-.team-title p {
-    font-size: 16px;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #ffffff;
-    line-height: 26px;
-    text-align: center;
-    opacity: 0px;
-    margin-top: -20px;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+      font-size: 28px;
+      line-height: 26px;
+      color: #21af8d;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 10px;
 }
 
-/* Team photo1 properties */
+.team-title p {
+      font-size: 16px;
+      font-family: 'Source Sans Pro', sans-serif;
+      color: #ffffff;
+      line-height: 26px;
+      text-align: center;
+      opacity: 0px;
+      margin-top: -20px;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+}
+
+/* ========================== Team photo1 properties =========================*/
   .perso1 div{
-    position:static;
-    padding: 0px 35px;
-    margin: 10px auto;
-    margin-top: -3px;
-    margin-left: 30px;
-    min-height: 1px;
-    float: left;
-    width: 160px;
+      position:static;
+      padding: 0px 35px;
+      margin: 10px auto;
+      margin-top: -3px;
+      margin-left: 30px;
+      min-height: 1px;
+      float: left;
+      width: 160px;
 }
 
   .perso1 img{
-    width: 100%;
-    height: auto;
-    margin-top: 0px;
-    vertical-align: baseline;
-    display: block;
-    align-items: center;
+      width: 100%;
+      height: auto;
+      margin-top: 0px;
+      vertical-align: baseline;
+      display: block;
+      align-items: center;
   }
     .perso1 h3{
       text-align: center;
@@ -170,6 +169,7 @@ div.header{
         align-items: center;
         display: block;
       }
+
         .perso2 h3{
           text-align: center;
           color: #ffffff;
@@ -216,14 +216,15 @@ div.header{
               font-size: 12px;
               margin-top: -10px;
             }
-/* ===================== Testimos ============================= */
+
+/* ============================== Testimos ================================= */
 
         div.testimo{
-        width: 60%;
-        height: auto;
-        margin: 0px auto;
-        padding: 160px 0px;
-        background: #ffffff;
+          width: 60%;
+          height: auto;
+          margin: 0px auto;
+          padding: 160px 0px;
+          background: #ffffff;
         }
 
         div.testcontents{
@@ -236,17 +237,14 @@ div.header{
         }
 
         div#testimo1{
-          /* background: #38477a; */
           text-align: justify;
         }
 
         div#testimo2{
-          /* background: #F77890 */
           text-align: justify;
         }
 
         div#testimo3{
-          /* background: #F23455 */
           text-align: justify;
         }
 
@@ -258,7 +256,7 @@ div.header{
         background: #38475a;
         }
 
-        /* ============ Button =============== */
+        /* ============================= Button ============================== */
 
         .button {
         background-color: #21af8d;
