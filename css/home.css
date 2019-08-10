@@ -76,6 +76,7 @@ div.header{
 
     /* ======================  Properties of Slider ======================= */
     div.Slider{
+      
       width: 60%;
       height: 40%;
       margin: 0 auto;
@@ -280,4 +281,13 @@ div.header{
 
       .active {
         background-color: #21af8d;
+      }
+
+      /* ================================ Footer ============================================= */
+
+      div.footer{
+        background-color: #21af8d;
+        width: auto;
+        height: 300px;
+        margin: 10px auto;
       }
