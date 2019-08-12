@@ -76,10 +76,15 @@ div.header{
 
     /* ======================  Properties of Slider ======================= */
     div.Slider{
-      
+      z-index: -1;
       width: 60%;
       height: 40%;
       margin: 0 auto;
+    }
+
+    h1#slider{
+      position: absolute;
+      z-index: 0;
     }
 
 
@@ -255,6 +260,10 @@ div.header{
         margin: 0px auto;
         padding: 190px 0px;
         background: #38475a;
+        }
+
+        div#tete_testcontents{
+
         }
 
         /* ============================= Button ============================== */
