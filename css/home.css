@@ -84,7 +84,12 @@ div.header{
 
     h1#slider{
       position: absolute;
+      font-family: 'Playfair Display', serif;
+      font-family: 'Open Sans Condensed', sans-serif;
       z-index: 0;
+      margin-left: 40px;
+      color: #000000;
+      margin-top: 120px;
     }
 
 
